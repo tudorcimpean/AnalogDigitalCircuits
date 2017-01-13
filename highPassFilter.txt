@@ -1,0 +1,7 @@
+HIGH PASS FILTER
+C1 IN OUT 470n
+R1 OUT 0 1k
+VIN IN 0 DC 5 PULSE(0 5 0 1e-9 1e-9 0.5e-3 1e-3)
+
+*stepsize = 1e-6
+*finaltime = 5e-3
